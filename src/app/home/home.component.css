@@ -1,0 +1,50 @@
+
+/* .container{
+    /* width: 1000%;
+    height: 1000%; */
+    /* padding: 30px; */
+    /* margin-left:15%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+/* } */ */
+/* #hhead{
+    color: rgb(43, 43, 240);
+    text-align: center;
+    margin-left: 30%;
+    padding: 10px;
+}
+#hpara{
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+#himg{
+    align-items: center;
+    justify-content:center;
+    margin-left: 30%;
+    padding: 20px;
+} */
+
+.con{
+    width: 25%;
+    height: 20px;
+    background-color:rgb(83, 83, 216);
+   
+}
+
+#tcol{
+    color: black;
+}
+#cb{
+    background-color: rgb(69, 69, 247);
+    font-size: 23px;
+    color: wheat;
+}
+#imag{
+    /* width: 00%; */
+    height: 500px;
+    width: 100%;
+}

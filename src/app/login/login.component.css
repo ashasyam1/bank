@@ -1,0 +1,29 @@
+#lf{
+    border-radius: 2rem;
+    background-color: rgb(179, 179, 235);
+    
+    
+}
+#lhead{
+    color: rgb(90, 68, 131);
+    text-align: start;
+    margin-top: auto;
+}
+#ih{
+    background-color: rgb(219, 219, 245);
+    margin: top;
+     justify-items: flex-start;
+    justify-content: flex-start; 
+    display: flex;
+  
+}
+#t{
+    text-align:right;
+    /* justify-content: center; */
+    justify-items: flex-end;
+    margin:top;
+}
+#con{
+    text-align:end;
+    justify-content:end;
+}

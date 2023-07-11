@@ -1,0 +1,29 @@
+.nav{
+    top: 0;
+    display: flex;
+    padding: 0; 
+    width: 100%;
+    margin-left: 0;
+    position: sticky;
+    justify-content: left;
+    align-items: flex-start; 
+    background-color:rgb(70, 70, 226)
+    
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 5px;
+}
+.nav ul li{
+    font-size: 20px;
+}
+nav ul li a{
+    color:wheat;
+    padding: 30px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-shadow: (-2px --5px black);
+    color: black;
+}

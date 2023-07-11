@@ -1,0 +1,23 @@
+#main{
+    width: 100%;
+}
+
+#img{
+    color: darkcyan;
+    
+    height: 100%;
+    
+    margin: 2rem;
+    padding: 40px;
+    padding: left 20px; ;
+    position: absolute;
+    justify-content: left;
+}
+#f{
+    border-radius: 2rem;
+    justify-content: center;
+    background-color: #9494e7;
+   
+    height: 100%;
+   
+}

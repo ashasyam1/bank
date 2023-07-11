@@ -1,0 +1,9 @@
+.f{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(54, 54, 230);
+    color:white;
+    margin: 0%;
+    padding: 0%;
+    /* display: flex; */
+}
