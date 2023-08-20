@@ -5,14 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <!-- <style >url{background-image: ;}</style> --> 
+   <!-- <style class="w-100">
+    body{
+      
+      background-image: url('https://i.postimg.cc/gcKV8w9B/OIP.jpg');
+    }
+   </style> -->
 </head>
 
-<body>
-  <div class="container">
+<!-- <body class="m-2" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGmxP_vDgDwjVhXnO9acAhwLrPL0nMLHyO7A&usqp=CAU);background-size: cover;background-repeat: no-repeat;"> -->
+  <body style="background-image:url('https://th.bing.com/th/id/R.5861313a762f8ba11c2650e882ba90b9?rik=gEChnAZ7xqrZrA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f68%2f14%2f3l9uKU.jpg&ehk=D2xweLQBKDD4BSyr%2b8JZv6xDAtewH0MF8AKNADtJ%2bQA%3d&risl=&pid=ImgRaw&r=0') ;">
+    
+  
+  <div class="container-fluid ">
+    
     <div class="row">
-  <h3 class="text-primary text-center p-2">Enjoy NetBanking with SBI</h3>
+     <h4 [ngClass]="shareAcno?'c':''"> <span class="p-5 mb-lg-auto mt-1 fs-3 text-primary m-5 "><br> Welcome  {{user}}</span></h4>
+      <h3  [ngClass]="shareAcno?'c':''" class="text-primary text-center p-2  mt-4" style="font-size: 50px;">Enjoy NetBanking with SBI</h3>
 
-  <!-- <div class="container h-100">
+      <!-- <div class="container h-100">
         <h3 id="hhead">Enjoy net banking with SBI</h3>
         <p id="hpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et unde mollitia esse minima
             exercitationem illo suscipit incidunt consequatur iste commodi non atque illum, aspernatur quod nobis
@@ -24,94 +36,115 @@
         <img src="https://img.freepik.com/premium-vector/online-banking-woman-enters-electronic-office_491047-386.jpg?w=740"
             class="img-fluid" alt="Sample image">
     </div> -->
-  
-      
-  <!-- </div> -->
-  
-  <!-- <div class="col col-md-9 col-lg-6 col-xl-5 p-4 offset-xl-1 border list-group-horizontal" id="lf"> -->
 
 
-  <div class=" col col-md-6 justify-content-center text-center d-flex list-group  w-25   d-flex ">
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-user"></i>View profile</p>
+      <!-- </div> -->
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Button</button>
+      <!-- <div class="col col-md-9 col-lg-6 col-xl-5 p-4 offset-xl-1 border list-group-horizontal" id="lf"> -->
 
-      </div>
-    </div>
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-sack-dollar"></i>Balance <br> Enquiry</p>
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-          aria-controls="offcanvasExample">
-          Button
-        </button>
-      </div>
-    </div>
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-money-bill-transfer"></i>Money Transfer</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-          data-bs-target="#exampleModal2">Button</button>
 
-      </div>
-    </div>
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-receipt"></i>Account<br> Statement</p>
-        <a href="#" class="btn btn-primary">Button</a>
-      </div>
-    </div>
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-right-from-bracket"></i>LogOut</p>
-        <a href="#" class="btn btn-primary">Button</a>
-      </div>
-    </div>
-    <div class="card w-auto" id="cb">
-      <div class="card-body">
-        <p class="card-text"><i class="fa-solid fa-trash"></i>Delete Account</p>
-        <a href="#" class="btn btn-primary">Button</a>
-      </div>
-    </div>
+      <div class="col col-md-1 text-center d-flex list-group justify-content-start p-3 m-auto w-auto ">
+        <div class="card w-auto p-3 " id="cb">
+          <div class="card-body m-1">
+            <!-- <p class="card-text"><i class="fa-solid fa-user"></i>View profile</p> -->
 
-  </div>
-  <!-- carousal -->
-    <!-- <div class="col-md-12 col-lg-6 col-xl-5 p-4 offset-xl-1" id="d"> -->
-      <div class="col col-md-6 m-auto  p-lg-5">
-        <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores velit eligendi laudantium corporis quo accusamus nihil assumenda enim aperiam, totam, incidunt quas dolorum optio non nisi cumque architecto modi maiores.</p>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="1s">
-        <div class="carousel-inner  d-flex">
-          <div class="carousel-item active">
-            <img id="imag" src="https://i.postimg.cc/KjgF4Vdh/mobile-banking-financial-technology-with-people-using-phones-background-53876-104205.jpg" class="d-block" alt="...">
-          </div>
-          <div class="carousel-item ">
-            <img id="imag" src="https://i.postimg.cc/JnhmbtB8/online-banking-with-mobile-device-3-smartphone-screens-with-accounts-data-processing-security-info-i.jpg" class="d-block`" alt="...">
-          </div>
-          <div class="carousel-item ">
-            <img id="imag" src="https://i.postimg.cc/SNxTkCbk/pay-goods-by-credit-card-through-smartphone-coffee-shop-1150-18770.jpg" class="d-block" alt="...">
+            <button style="color:whitesmoke;" (click)="profileView()" type="button" class="btn btn-outline-primary fs-4" data-bs-toggle="modal" ms-auto
+              data-bs-target="#exampleModal"><i class="fa-solid fa-user"></i> View<br>profile</button>
+
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="card w-auto p-3 m-1" id="cb">
+          <div class="card-body">
+            <!-- <p class="card-text"><i class="fa-solid fa-sack-dollar"></i>Balance <br> Enquiry</p> -->
+            <button style="color:whitesmoke;" (click)="getBalance()" class="btn btn-outline-primary fs-4 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample">
+              <i class="fa-solid fa-sack-dollar"></i> Balance<br>Enquiry
+            </button>
+          </div>
+        </div>
+        <div class="card w-auto  p-3 m-1" id="cb">
+          <div class="card-body">
+            <!-- <p class="card-text"><i class="fa-solid fa-money-bill-transfer"></i>Money Transfer</p> -->
+            <button style="color:whitesmoke;"  type="button" class="btn btn-outline-primary fs-4" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"><i class="fa-solid fa-money-bill-transfer"></i> Money<br>Transfer</button>
+
+          </div>
+        </div>
+        <div class="card w-auto p-3 m-1" id="cb">
+          <div class="card-body ">
+            <!-- <p class="card-text"><i class="fa-solid fa-receipt"></i>Account<br> Statement</p> -->
+            <button style="color:whitesmoke;" (click)="accountStatement()" type="button"  class="btn btn-outline-primary fs-4"><i class="fa-solid fa-receipt"></i> Account<br>statement</button>
+          </div>
+        </div>
+        <div class="card w-auto  p-3 m-1" id="cb">
+          <div class="card-body">
+            <!-- <p class="card-text"><i class="fa-solid fa-right-from-bracket"></i>LogOut</p> -->
+            <button style="color:whitesmoke;" (click)="logout()"  type="button"  class="btn btn-outline-primary fs-4"><i class="fa-solid fa-right-from-bracket"></i>Logout</button>
+          </div>
+        </div>
+        <div class="card w-auto  p-3 m-1" id="cb">
+          <div class="card-body">
+            <!-- <p class="card-text"><i class="fa-solid fa-trash"></i>Delete Account</p> -->
+            <button style="color:whitesmoke;" (click)="deleteAc()" class="btn btn-outline-primary fs-4"><i class="fa-solid fa-trash"></i>Delete<br> Account</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- carousal -->
+      <!-- <div class="col-md-12 col-lg-6 col-xl-5 p-4 offset-xl-1" id="d"> -->
+      <div class="col text-center ">
+        <p [ngClass]="shareAcno?'c':''" class="text-center p-5 m-auto " style="font-size: 20px;color:black;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores velit eligendi
+          laudantium corporis quo accusamus nihil assumenda enim aperiam, totam, incidunt quas dolorum optio non nisi
+          cumque architecto modi maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam totam ducimus cum enim? Culpa voluptatem nihil at repudiandae ipsum quas reprehenderit dolor tenetur autem. Architecto veritatis porro nam officia ipsam.</p>
+
+          <app-delete (onDelete)="deleteAccount($event)" (onCancel)="cancel()" [childAcno]="shareAcno"></app-delete> 
+
+          <!-- //carousel -->
+          <div class="row m-5 p-5 mt-auto">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="1s">
+          <div class="carousel-inner p-5  d-flex">
+            <div class="carousel-item active">
+              <img  id="imag" [ngClass]="shareAcno?'c':''"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXRLF6dLPhXa0nExsO4oxJ-mqr9YC8jJHPSw&usqp=CAU"
+                class="d-block h-100 w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img id="imag" [ngClass]="shareAcno?'c':''"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEUFBEQEREQEBAQEA4OEBAQERAODg4OFxMYGBcTFxcaICwjGhwpHRcXJDUkKC0vNDIyGSI4PTgxPCwxMi8BCwsLDw4PGRERFzEgICAxMTExLy8vMS8vLzExMTExMTEvLzExLy8vLzExLzExMS8vMS8xLy8xLzExMTE0Ly8xMf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xAA/EAACAgECAwQIAggEBwEAAAABAgADEQQhBRIxE0FRYQYiMlJxgZGhFEIjYnKCkrHB0TNT4fEHFSRDY7LwFv/EABoBAAIDAQEAAAAAAAAAAAAAAAACAQMEBQb/xAAxEQACAgECBAQFAwQDAAAAAAAAAQIRAyExBBJBURMyYZEicaGx8BSB0QUzweEjQoL/2gAMAwEAAhEDEQA/APMooooASjxo8AFFFHgAohFEIASRiCCOo3HxnsHC7RbVTd79ak/tAYI+s8fE9F/4davnqspJ3qcOo/Uf/UGQxoujqlrlpr2il6LtELAHs95aK9pN03lqLtAkDIhCVgiVWrLtM0AA9Xw/PdMl9OVM7JUDCZ2u0XXaUZIdUW48nQ5thKswvUVFTgwXEoNJNY5iWMx8IrASjO009HpYNpKd50OkpwMmWQhZVknoJK+URqUyY+oeX6GvO8topvQOrTAgOqM0bNhMvUNJkRAEaW0pGVYXSkoLRYwJOgZMhY0J0q98jdg9EW2DaRpSTfcy9Ek1bFukR5IpbFHoU+XBJohJCqCSTgADJJ8AJGb2RpK12B1dq5ydxRWfv1HzOe4TVkny0krb2X50Rzs+bw6UVcpaJfz2S6lCcG5AG1FtdAPRM5vP7pH94xXQjbm1j+YFKj74mbZazks7FmPVmOSZGL4cn5pv9tF/JX+nyS/uZpf+fhX2b/ds1V0+if2brqj/AOcV8v1X+80OG+jykl7WymfUCkqLF9853AgXo7w4WuXcZrrwSD0ezbC/DvPyml6Q8WKEU14JGGtzuMbnsvn3zNklPn8HHJ31b6HNzzzeN+l4fJJutW6+H96v8rfbK41fQWCUJWqV5y6geu3xHUTLm1qNNXfW11ChLE3upGwx1LIBMWacLXLyq9N73v1OlwTj4XIrTjo09Wnvr8909mth50noPruy1SAnC3A0t4ZO6n6j7zm5bTYVZXXZlZWHkQciXGs9uc7wynpMrS6oWV1XDpYit88bzU0x2iFpXcsnVHvWKmQMV6hIPW2DNC2vaAWJgwINLTWQtkDCZGneaunskAY3EtF12nPXpynBne6ikMJz3EeHZ7pnnDqi/Hk7nNizJwJoabT5iThxB6TZ0WnxiRGA0pj6TSY3MOfYSxUwIJqX7pboindlPtNNnR14EztDVk5mygwIRIkynUtMtzkw3VPA1EWbHgh61hHQSNaxWtK3oMtSsbtNGsYEC06d8OEWPcmRKoZMJxK6klkdKkVN2LEUfEUgLPmrgVAe+oHcKRaR+zgj74lfE9QbLbXP+Y6r5KrYH2EL9GWA1CZ/MroPicH+kz9ShDup6rZYp+TETQv7z9Evu7OXHXi5X0gq+Tk7+qRVHhfD+H2XNy1gbbsx2VB5/wBpa3DnrurpsHtW1gEey6FwMiWPJBPlvVK6LnnxRk4OStK661+fzsdPpANNpeYjdajew8biM4+uBOMtsLEsxyzEsT4k9Z1vpXbilV9+9Qfhys/9BOPmTgFcZZHvJnM/o0XLHPPLzTl9v9sK4dqzVYtg6A4Ye9WTuJfxzSiu0lP8O0C5PDDE7fWZ82uKjOm0Tnry9n8gP9JfP4ckX30f3XsbMq5OJxTX/a4v10bXtT/ZmKJIRhHl5sPRvQXV8+naon1qH2/YbcffM7LSGeWeg2s7PUdmT6tylP3huJ6fpG3kMdPQNuWV0jeXuNpSnWVsdBJTaB31zRQbSt6cwAy1GIdp3lD1jPWTRMd4kWMzTR8iV3KDKK2MsJMgigN6R4S+qvEsCSTHEWibKrWwIAfWMt1NkfSpvFbsdKkH6OrAhVh2kahgSrUWR26RXuwS9smNUkbqYQi4lRbsMRiDtuZdY0hWuTK5MaOhfp0haLIVpgS1YyVCSZYBJgRlkhHZWPiKSiikHy1p7ijpYvtI6WDzwen9Jq8eoBK6mverUYOfduIJIPh0+oMxZqcL4gqBqbl7TT2e0vUof8xPlj6Z6zRljJNTira6d0/89Uc/iISUo5satx0a7xe6Xqt17dSXA+J9g55smp8BwOoPvD4b7TswtVorsHJYEIsrcetgjoQZxmu4QyDtaT29B3WyvLlR4Pj+f8pRoOJW1HNbbHqhJapvl/UTLm4eOdeJilr+b9U+nyOfxXBQ4z/n4eXxdfXpT6p9Nem50Ppgv6Ko+GpH3qsnJzV4jx2y5OyautRlWJAbOR4Z6TLVSSAASTsABkk+Ql/B4p48XLJa2zV/TMGTBg5Mip2+vT5jopJAAySQAO8k9BNn0hwg0+mByaaU5/2jt/Q/WW6PSLpVGo1IHa79hRkcxbqGIPw+XxmJqb2sdrHOWclj/YeUIy8XIpLyx6929Por1JhJcRnjOPkx3r0cnpp6RXXvsViSEjHE0m8I0d5reuwdUdH8M4OcT23T8V0/Kr11A86qwJJPUTwwTvfRPVc9IU7molfl3SjiOZQtPY1cIoym4yW53a8SU7FeX4dJcDvMDmzNujPKuevKJVgnKVpl3E44xacVVh9Z2mN6R8TalCwzsO7rNimc76W6FrFKgkZx/OXy2MqZzqelXjzj6GE1+lad7N81mI3o9Z3N9RKm4DcOhU/USqmWWjq6/Smv3x8xiE1+klZ/On1xOHPB9QPyg/OQPDbx+QyNQ0PRk4+h/Mv8Qlq8YU/7ieZfhrR1RvpJDtB3OPrFcmNyo9QGtrPjLq9ag7/tPLF1Vo/M4+Zl6cRuH/caI5k8l9T1ZeIp4iM+oRu8fWeZV8Wu9+Epxm7xB+Uh5hlhPRKyvl9ZccTz+rjlvgPvDKOOWEgcvXbYxHnSG8GR1VnXEJ06QLSZYAmaaDAjxXUSTrQuEQMqLxuaDlQqQYjSQaD1tLkkqViOJbFGzFGEPleSkZKbikJ0WutqOanK56jJ5G+I6TQ/5tQ+9+kqLHrZSBUx+R/vMaPKp4YSfM1r3Wj91RRk4bFklzyXxd02n7qmbH4nh/X8Pqz5c6Y/95I8bVMjTaemknbnZee7HxB/nmYsUX9NB+a3822vYqfA4paTcprtKUmva697Lb73sYu7F2PUk5Pw8hK4opftoa0klSHjxooEkxOl9CtTy2tUTtYhx+0N5zIh3CNV2d1Nvclik+a53EWUeaLXcfHLkkpdj1zhuiZzzttWD/EZqv1k9O4KgjoQCMdMGQbrEhjUFRbkyvI7CaIJxUnG0KoME4gYz2EMIO3lJhz4CJ3wegllSc3dK3EeyPN+qI3q+7C/w0S0iK4smwTkT3YxprPd9ppJpgZb+BUxaZNmM2jqPcPpFXwmpj7K/SbP4ASyjShYlO9RrVaGM3o7X7qyB9Gk937zp8RwsHBPoSpPucr/APm17gfrLNNwLkYNvt4zpwsiwiPFEZZZEtLXgCXWNHrGBINLZKlRV1EJILHCyQEq5R7JIJeDKlk1jJUIyzmilfNFAij5eiiim8zEooooAKPFFABRRxFABR4ooAPJLIxxAD2b0M13a6So5yyA1N8V6fbE2X6zz/8A4X6317tOT7S9quTjddj9v5T0J8DvH1iyaT1Y8Yt7IsqMC1rwusxPpQ0GSmYTBT3QnTAd0Pbhy+Eh+ECxEhrB9VZgbTOTUtN6vRc432EB1umRNhKcjSHWJz2IJq8LmDjiZzANQ+MiCrbiVOZpx4K8xvJxOFVazM5oWTT0r7SmUpdy544myLjJiwwGuyFK8XnYjgkXrdLEbJgmZcpxJWVpiyxo0CdpWGlHaGIPLllUmU+G0FgxwZFZICWbiE1kiZAGO0kUr7SKV8pilWpZofNUUaPOiYyUUUv0miutPLTTdcwxkVVvaVB6E8oOB5mAFAjy/XaC6khb6npLDmXnUqGXOMg9DvttKShClyG5A3IWweQPjPLnpnG+OsAGjzc0voxczVpZbRQ91tlNSW2Mz2XVtixMVhsEbdSAeZQM5l/D+CUPm5LPxVAoutVXZOGl7a7aq3Wx3ZgiBblsznJBA2OYAc7Lb6HTl51K89aWpnB5q3GVYY8ROovWnT1W26VNNe62aa1mtCa2uumxXSzTq5XksAtrQc4GeW4DOcyHpRW1lVbIxenRl6kDOM16G8V26VlUnccrtWSO+oZgBywjiRjwA0+AcQNF9d3cpIbzUjcT0+rU845gfaAYfAzx2ei+jGr56K990AQ/u7TLxS+FM28FrJxOs4Zq2z2dn7rdx8jNlWnNUtnrNrh7krg9VOPiO6Rgyt/CyeKwcnxIN5pVY0cmDX2TTRlQdbqAiZHhOS1utLE5M0b7yRyzP/5eWmTJjcpHRwZYQj6gqLzRn0k2NJwFz0yIXZwG4bjf4yl45LoN4se5zaaIyzkdZsnSWJ7SH4jeVvgyuQykZiahx1hlet8ZatKmWHRKZWTaFVqQYbW+YCNDjpLFrYRaIdM0OeOpgQdparySujSpeXAwHSnMNE3YW3HUy5PMSzFmNmNzASxiE8RSr8UIotoblZ8zxRRTYZR5sej6q/4jSvZ2SX0M/NytZiyhhaDyru36NbVx388x4RotU9ViXVkB62DKSOYZ8CO8EZGPOAHQcK1FS2aXSaWxs9vqG/FW0qjVvdWlf/T1855WxX6pJ3dl2GIZxS7NdP4mvUVV3mzR6gauztuImsHn0+sZeVGyrtcuCN1UrkgicWB3fKE06qxLFuVyLUYOthw7Bx0PrZB+cAN7jfEQl2oA/wAbT8Wt1NDdVxnFgz3etVSfkYEnGmrNooRUqfU2XolgWwLU6OjUup9V0ZGUEEfkEBr0t9vaWpVdcFzZdYqPaFJySzsAcd5yfOFVcFuKq/PQCyV2mo3oL66HwRc9fUV8rKxPUKeYjG8AIaviltm3qVV9n2IppQVUrWbBYVCjxcBiTkkgb7CUnS2GvtyB2a2dgHLpzdpyBiiqTzHClc4GBzL4ibrcE09Nqrf+IVB29fNq6H4dp7rkXNfLcC+K2PNvsRyjpnIOqdaa3xp9MaK7tPxBOysr4ittKvXVq60sJJGzVbbMANyQRADmNPoi9V92cdh2LcvKfXrZ+RmB/VZqwR+v5QSdlpOHmiq2nUMKqPxF+nputZf02l1FXZm6sfmRbK9JaWGwyfOcYD8vLwgQh503oXqeV3rPsthge4N4fb7TmZpcCtC2BTnDgj1Tg8w9YY+hHzizhzxcS3FPkmpHptbYm5wwHlLH8xGPgBOQ0GrwQGrNh/XcgfQTqtLrwQAyhO4Y9n4eUw4FGMrlI6HFSlKNJB7tANQ8IueAWtNzMEUVdTNPRV9IFQmTNnS1SCZM19GQBDBMpbMSdes3xI5qIcebYMurUjcCc1xXSKMkTY1OpOM74mPqrwZmzyUjRgjKJjKWBhVd/jJKAZLsQekxJGxsurtEsDiBNSR0jJYehkiBhIixKBZLEskMig7RrC8TPo1GJedUJtxSXKjLOL5i8mZnEdYEB3ll+sAHWcrxjiHMeUGJmyJR0GxY7Za/Fzk7Rpkc0U5/PLubeSPY831CFWZTsQSCPAjqPrKofxlg1juBgMxO2wz3/fJgE9AtVZxmqdCm3wKpWS41pprdVz0iuvVmnsuwIftHrW0itrOYVjDZwCcDqRiQrQPQGIvSx62RkzUQLanyCLFB9ViMY5TgEMdwcGBBsazhFrGx7aE0zDTW3VnTtU+lvtqZWswKyyoeyLHlUjdc4wcS/R0hNOdVp0UXnTVkFkW962qvavUuiuGAPK2nbONlsbGBmAjitVKpXpBYcXDUWWalav0rCt6xX2aEgVlLLAcsS3N3YEo1PGb37IJyadKC7UJpgaRSz+2yvkvzHvJYwA1rar7KqAhp02oS27Wdkt1ehDVXLWE1C5ZQpBqfIG4VkIGDLm4xSBy/iSvZVHR2rRpa67OIrUhqrsGpHrKjIEyrHbBwGyMcpba7sXsd7HY5Z7Gayxz4lmyT840ANqvjYrr5KKmqduwNjNcb6M1sG/R1OuF5mUZ5i+xZRsYJquKW2co/R0oqWVrVp6109ISzHaDlXrzYGc5zgeAgEUAH/wBvlHjAQqjSkwApVCYfo9KwYMOqkMPiNxDdLw/ykeOWdmi1Ls9gOT4J0x84XQHW8AbtVNxyQSwQYxhAcCbS3/qnHjjaZvCAEREHsqoUfACbNXl9DOVPWTZ2442opF1d3Mvw6fCQxkyCAAkDofWx4HvH2l9K5M24pXBWYMseWTSC9LXNWsYED0ywkvLTPuSdpbpUBYZlA3lynG8As0bqFZcTmOIcOYElZtDVGU3atcHOJRlUZb6F+LmicwGZTgy+u2XajlY7QZtORuJiNjYatkrdQYF2hXrLVuzAVl/JKrMrJ13RtXYMRWSDdsYja3jKgYnbAi2xqAuJ6tgCMzCV8nMI4nZkwBGg7CIXzRSrmiico1nFa5CGdWzlT393/wBvAp6Z6X+j63A6ipcXoDzqBgXp8Pe8++eaEYJE7WKanFHKzQcZa9RooopYVCjxooASElICSgAhLUqJkaxvNbQ05gBDSaLM3dJoOm0u0mkG02aKgJBNFNGjAxtOY9NtIyvVYB6rJyA9wdSTj6H7TukEH4ppabK2rt9g9/erdxXzgBncL1YZEcdGUGdBp7Jx3BNNZUz0jNtaseVgN0JO6nuz0zjocidTpanG5Ugec5uWPLKjt4cyeNNmh1yfhC9MsCR84HhD6JrwwlGNM5+ealJtGgjYEkpzB+eE0rLqMzZegkHeK18QJ7IMI6sud5la7m7oQ9soe7ffcSqcUzRBuLAFtYdc/GG06mGV11uu2D5TI1adm23SZJQo1KVhloVpQExKFvlqtmJQWSBlVzy/k2zBLYrQCV5HU2bSGZVqG2iVqPZha1/WgymX60b5gmY7QqZfzRSuKLyk2d2WBE8q9MuG9jqGKjFdw7VcdA2fWH13+c9Sfacv6c6LtdP2oHrach/Pk6N/Q/KaOHlyzXqUZ480PkebRRRTomAeKKIQIFHEUkisxwoLHwAJMAEpm3wy4bQDT8Mtc4wF8t2b+FckfPE3NDwB13PMP2iFH8IyfuIOlu6/O25MYyl5VZuaW5eXJIAHeSAPrLn4jWvfn4YGfgWxn5ZmOdKUYcx26ZXKt/F7WPnNBK0UeqoGe8Dc/E98reWK9foXx4eb3dfUuTXWP/hqAPebIH1YZz+6YFcLrLRULCAB67LkHB7ge790LmOjlGPun7GbPC6QOZ8ZLHPn5TPPiJLbQ0w4WHXUO4dp60UKoxgYmkCMSnT6dSNwScdcnrGXKkr4fymOSe5paWxBfaMOrbaZtT5JPnDa2nUx2opM5s9Ww2gZM0V2ED0qy3UW4EsKCnU2wNrJG2yDl4rLoKkWM0HtaTzKL2iMdMK4UTk798u4pUOXMH4Y0I4k+0oluWxZjqYZpzAlG8KqEhoYvteDNLWlJMztDogwlTrsZYTIcwwcxYrUJPQwuIpiZoM0uKWjpMsGWNCxZZmKQzFFoaz0MrmA6ukOrI26urI3mCMGKKQSeQ63SGqx6jvyMy58cHrBoop1jlvcdVJ6TS0fBbbTyjGfAEZ+5A+8UUHpFvsC1aRv6P0T3/SEbYzvzn7YA+86CvgFSD2eYY/MRy/wjA+0aKc6WfJKN37aHSjgxx2XvqW1aZR0AA8AABLeUR4ollqMvXV9ZToyT6p6qcRRSxvQK1D14fz7GEaUlDyH8pK/TaKKUXehdj3NvT2j5wTX3YBPe5CDyGN4opOLzpCZtIsq0zbTT025iinTicuWxrIcCBaq2KKOUrcz3aMsaKKXEmbEA1NkUURkoJ4fbCtY+RFFKZbl0DOXrCEMUUVjiJlTGKKVMZFTtBdW/KDGik411EyM5nUWkscyoNHikshEsxRRRRrP/9k="
+                class="d-block h-100 w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img id="imag" [ngClass]="shareAcno?'c':''"
+                src="https://i.postimg.cc/SNxTkCbk/pay-goods-by-credit-card-through-smartphone-coffee-shop-1150-18770.jpg"
+                class="d-block h-100 w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </div>
-   
     </div>
-    </div>
+    <!-- <app-delete [childAcno]="shareAcno"></app-delete>  -->
+
+  </div>
+
+
   <!-- </div> -->
+  <!-- propery binding -->
+  <!-- <app-delete [childAcno]="shareAcno"></app-delete>  -->
 
 
 
-  <!-- Modal -->
+  <!-- Modal for profile  view -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -125,8 +158,8 @@
             <img class="w-50" src="https://i.postimg.cc/SxG7PVTk/vector-users-icon.jpg" alt="">
           </div>
           <div class="mt-5 text-center">
-            <h5>Username : Name</h5>
-            <h5>Account Number :12345</h5>
+            <h5>Username : {{user}}</h5>
+            <h5>Account Number :{{profileData.acno}}</h5>
           </div>
         </div>
         <div class="modal-footer">
@@ -138,7 +171,7 @@
 
 
 
-  <!-- offcanvas -->
+  <!-- offcanvas for balance enquiry -->
 
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
@@ -146,14 +179,14 @@
     </div>
     <div class="offcanvas-body">
       <div>
-        <img class="w-50"
+        <img class="w-100 h-100"
           src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29pbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt="">
       </div>
       <div class="fs-4">
-        <h3>Hi username </h3>
-        <p class="mt-5"> Your current balane in account number 1234 is</p>
-        <h4 style="color: blue;" class="mt-4"> Balance 00000</h4>
+        <h3>Hi {{user}} </h3>
+        <p class="mt-5"> Your current balance in account number {{balanceEnquiry.acno}} is</p>
+        <h4 style="color: blue;" class="mt-4"> Balance {{balanceEnquiry.balance}}</h4>
       </div>
       <div class="dropdown mt-3">
 
@@ -162,7 +195,7 @@
   </div>
 
 
-  <!-- Modal2 -->
+  <!-- amount transfer Modal -->
   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -174,17 +207,28 @@
           <img class="w-75 mt-5 "
             src="https://i.postimg.cc/FFbh6B5Y/mobile-bank-users-transferring-money-currency-conversion-tiny-people-online-payment-cartoon-illustra.jpg"
             alt="">
-          <form action="">
-            <input type="text" id="acc" class="form-control mt-3" placeholder="Enter your Account Number">
-            <input type="text" id="bacc" class="form-control mt-3" placeholder="Enter beneficiary account Number">
-            <input type="text" id="amnt" class="form-control mt-3" placeholder="Amount you need transfer">
+          <form [formGroup]="moneyTransferForm" action="">
+            <input formControlName="toAcno" type="text" id="acc" class="form-control mt-3" placeholder="Enter beneficiary AccountNumber">
+            <div *ngIf="moneyTransferForm.get('toAcno')?.errors&&moneyTransferForm.get('toAcno')?.touched">
+              <p class="text-danger">Accept only numbers</p>
+            </div>
+             <input formControlName="amount" type="text" id="bacc" class="form-control mt-3" placeholder="Enter the amount you need to transfer">
+            <div *ngIf="moneyTransferForm.get('amount')?.errors&&moneyTransferForm.get('amount')?.touched">
+              <p class="text-danger">Accept only numbers</p>
+            </div>
+           <input formControlName="psw" type="password" id="amnt" class="form-control mt-3" placeholder="Enter your password">
             <div class="mt-5">
-              <button type="button" class="btn btn-primary ">Transfer</button>
+              <div *ngIf="moneyTransferForm.get('psw')?.errors&&moneyTransferForm.get('psw')?.touched">
+                <p class="text-danger">Accept only numbers and letters</p>
+              </div>
+  
+              <button (click)="Transfer()" type="button" class="btn btn-primary ">Transfer</button>
             </div>
 
           </form>
         </div>
         <div class="modal-footer">
+          <p [ngClass]="status?'s2':'s1'" class="fs-5 mt-auto">{{message}}</p>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>

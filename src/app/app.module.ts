@@ -10,6 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HistoryComponent } from './history/history.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from'@angular/common/http';
+import { DatePipe } from '@angular/common';
+import { DeleteComponent } from './delete/delete.component';
+import { DataPipe } from './datapipe/data.pipe';
 
 @NgModule({
   declarations: [
@@ -20,13 +25,18 @@ import { HistoryComponent } from './history/history.component';
     SignupComponent,
     HomeComponent,
     NavbarComponent,
-    HistoryComponent
+    HistoryComponent,
+    DeleteComponent,
+    DataPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

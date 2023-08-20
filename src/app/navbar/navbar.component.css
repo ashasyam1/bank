@@ -2,12 +2,12 @@
     top: 0;
     display: flex;
     padding: 0; 
-    width: 100%;
+    /* width: ; */
     margin-left: 0;
     position: sticky;
     justify-content: left;
     align-items: flex-start; 
-    background-color:rgb(70, 70, 226)
+    background-color:rgb(197, 197, 230)
     
 }
 .nav ul{
@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 nav ul li a{
-    color:wheat;
+    color:black;
     padding: 30px;
     font-size: 20px;
 }
